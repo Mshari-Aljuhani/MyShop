@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".activites.LoginActivity">
+    tools:context=".activities.LoginActivity">
 
     <FrameLayout
         android:id="@+id/header_image"
@@ -119,7 +119,6 @@
         android:paddingTop="@dimen/btn_padding"
         android:paddingBottom="@dimen/btn_padding"
         android:text="@string/btn_lbl_login"
-        android:textColor="@color/cardview_dark_background"
         android:textSize="@dimen/btn_textSize"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tv_forgot_password" />
@@ -145,15 +144,15 @@
             android:textSize="@dimen/forgot_password_textSize" />
 
         <com.example.myshop.utils.primaryFont
-            android:id="@+id/register"
+            android:id="@+id/tv_register"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
             android:foreground="?attr/selectableItemBackground"
-            android:padding="@dimen/clickable_text_view_padding"
+            android:clickable = "true"
             android:text="@string/register"
-            android:textColor="@color/teal_700"
-            android:textSize="@dimen/lbl_text_view_textSize" />
+            android:textColor="@color/teal_200"
+            android:textSize="@dimen/lbl_text_view_textSize"
+            android:focusable="true" />
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

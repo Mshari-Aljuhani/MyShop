@@ -6,6 +6,7 @@
     <dimen name="btn_background_rad">10dp</dimen>
     <dimen name="btn_textSize">18sp</dimen>
     <dimen name="btn_padding">8dp</dimen>
+    <dimen name="btn_paddingTop_Bottom">8dp</dimen>
 
     <!-- auth Dimensions-->
     <dimen name="auth_header_img_height">220dp</dimen>
@@ -20,5 +21,12 @@
     <dimen name="forgot_password_textSize">14sp</dimen>
     <dimen name="lbl_text_view_textSize">18sp</dimen>
     <dimen name="clickable_text_view_padding">5dp</dimen>
+
+    <!-- Toolbar Dimensions-->
+    <dimen name="Toolbar_title_padding_start">25dp</dimen>
+    <dimen name="Toolbar_title_textSize">18sp</dimen>
+    <dimen name="txt_terms_condition_marginStart">10dp</dimen>
+    <dimen name="txt_terms_and_condition_textStart">14sp</dimen>
+
 
 </resources>
