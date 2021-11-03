@@ -9,20 +9,27 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MyShop">
-        <activity android:name=".activites.SplashActivity"
+
+        <activity
+            android:name=".activites.LoginActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.MyShop.NoActionBar"
+            android:exported="false" />
+        <activity
+
+            android:name=".activites.SplashActivity"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.MyShop.NoActionBar"
             android:exported="true">
-        <intent-filter>
-            <action android:name="android.intent.action.MAIN" />
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
-            <category android:name="android.intent.category.LAUNCHER" />
-        </intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
         <activity
             android:name=".activites.MainActivity"
-            android:exported="true">
-        </activity>
+            android:exported="true"></activity>
     </application>
 
 </manifest>
